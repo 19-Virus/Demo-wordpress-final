@@ -1,0 +1,901 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+
+#firstContainer{
+    margin: 0 auto;
+    max-width: 2000px;
+    min-width:600px;
+    background-image: url(Images/bg.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#navbar{
+    font-weight: bolder;
+    margin: 0 auto;
+    padding-top: 60px;
+    max-width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu > li{
+    display: inline-block;
+    padding-left: 20px;
+}
+
+#storyTeller{
+    width: 80%;
+    margin: 0 auto;
+    text-align: end;
+    padding: 400px 0 200px 0;
+}
+
+#storyTeller > h1{
+    font-size: 4.5rem;
+    padding-bottom: 15px;
+}
+
+#lineM{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#line{
+    height: 5px;
+    width: 150px;    
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 30px;
+}
+
+
+#story{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 50px;
+}
+
+#story > p{
+    width: 600px;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+#storyTeller > button{
+    height: 50px;
+    width: 280px;
+    background-color: transparent;
+    font-size: 1rem;
+}
+
+#storyTeller > button:hover{
+    cursor: pointer;
+}
+
+
+
+/* second patition */
+
+
+
+#secondContainer{
+    max-width: 2000px;
+    min-width:600px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 90px;
+    padding-bottom: 120px;
+}
+
+#secondContainer >  h2{
+    font-size:1.7rem;
+}
+
+#secondContainer > p{
+    margin: 0 auto;
+    max-width: 70%;
+    line-height: 2rem;
+    padding-top: 60px;
+}
+
+#firstIcon{
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+
+
+/* patition three */
+
+
+
+#thirdContainer{
+    max-width: 2000px;
+    min-width:600px;
+    background-color: rgb(234, 234, 234);
+    margin: 0 auto;
+
+}
+
+#subContainer{
+    display: flex;
+    padding:0 12%;  
+    padding-bottom: 120px;
+    line-height: 1.6rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+#wow{
+    flex: 1 1 300px;
+    padding-top: 90px;
+    padding-right: 30px;
+}
+
+#beautiful{
+    flex: 1 1 300px;
+    padding-top: 90px;
+    padding-right: 30px;
+
+}
+
+#amazing{
+    flex: 1 1 300px;
+    padding-top: 90px;
+}
+
+.feature{
+    padding: 20px 0px 25px 0px;
+}
+
+#secondIcon{
+    height: 40px;
+}
+
+#thirdIcon{
+    height: 40px;
+}
+
+#fourthIcon{
+    height: 40px;
+}
+
+
+/* patition four */
+
+
+
+#fourthContainer{
+    max-width: 2000px;
+    min-width:600px;
+    margin: 0 auto;
+    padding: 90px 0 0 0;
+    text-align: center;
+}
+
+#fourthContainer > h2{
+    font-size: 1.6rem;
+    letter-spacing: .2rem;
+}
+
+#fourthContainer > p{
+    margin: 0 auto;
+    max-width: 900px;
+    line-height: 2rem;
+    padding-top: 35px;
+}
+
+
+
+/* patition fifth */
+
+
+
+#fifthContainer{
+    max-width: 2000px;
+    min-width:600px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+
+#subFifth{
+    width: 80%;
+    min-width:500px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+#arrow{
+    height: 35px;
+    cursor: pointer;
+}
+
+
+#frame{
+    min-width: 500px;
+    height: 350px;
+    overflow: hidden;
+}
+
+
+#subFrame{
+    display: flex;
+    gap: 40px;
+    transition: all 1s ease;    
+}
+
+
+.card{
+    height: 350px;
+    min-width: 350px;
+    background-color: rgb(43, 43, 43);
+    box-shadow: -1px 1px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 2%;
+}
+
+
+#clients{
+    max-width: 2000px;
+    min-width:600px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 80px;
+    background-color: rgb(234, 234, 234);
+}
+
+
+#clients > h2{
+    letter-spacing: .2rem;
+    font-size: 1.6rem;
+}
+
+
+/* patition sixth */
+
+
+
+.clientLogo{
+    max-height: 140px;
+}
+
+#sixthContainer{
+    max-width: 2000px;
+    min-width:600px;
+    height: 300px;
+    background-color: rgb(234, 234, 234);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+
+#subSixth{
+    display: flex;
+    width: 60%;
+    min-width:600px;
+    align-items: center;
+}
+
+#secondFrame{
+    display: flex;
+    overflow: hidden;
+
+}
+
+#slider{
+    display: flex;
+    gap: 40px;
+    transition: all 1s ease;    
+}
+
+#slideButton{
+    height: 40px;
+}
+
+
+
+/* patition seven */
+
+
+
+#seventhContainer{
+    max-width: 2000px;
+    min-width:600px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+#seventhContainer > p{
+    margin: 0 auto;
+    width: 60%;
+    padding: 35px 0px;
+    line-height: 2rem;
+}
+
+
+#portfolio{
+    letter-spacing: .2rem;
+    font-size: 1.6rem;
+}
+
+
+#design{
+    margin: 0 auto;
+    height: 6px;
+    width: 80px;    
+    background-color: rgb(254, 64, 67);
+    border-radius: 10%;
+    margin-bottom: 40px;
+}
+
+#subPages{
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+
+
+/* Image Slider */
+
+
+
+#imageContainer{
+    max-width: 2000px;
+    min-width:600px;
+    margin: 0 auto;
+    padding-bottom: 70px;
+}
+
+#gallery{
+    overflow-x: scroll;
+}
+
+.subGallery{
+    display: flex;
+    transition: 1s all ease;
+
+}
+
+.subGallery > div{
+    flex: none;
+    
+}
+
+.allImages{
+    height: 350px;
+}
+
+#gallery::-webkit-scrollbar{
+    display: none;
+}
+
+#bottom{
+    max-width: 2000px;
+    min-width:600px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 70px ;
+}
+
+.circleButton{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(203, 203, 203);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+
+/* patition nine */
+
+
+
+#ninethContainer{
+    max-width: 2000px;
+    min-width:600px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(33, 33, 33);
+    padding-top: 85px;
+}
+
+#quoteIcon{
+    height: 17px;
+}
+
+#quoteText{
+    margin: 0 auto;
+    color: rgb(205, 205, 205);
+    letter-spacing: .1rem;
+    line-height: 2rem;
+    width: 60%;
+    padding-top: 20px ;
+}
+
+#ninethContainer > i{
+    display: inline-block;
+    color: rgb(205, 205, 205);
+    letter-spacing: .1rem;
+    padding: 35px 0px 50px 0px;
+    font-weight: 500;
+}
+
+
+/* patition tenth */
+
+
+#tenthContainer{
+    max-width: 2000px;
+    min-width:600px;
+    margin: 0 auto;
+    padding: 90px 0 70px 0;
+    text-align: center;
+}
+
+#tenthContainer > h2{
+    font-size: 1.6rem;
+    letter-spacing: .1rem;
+}
+
+#tenthContainer > p{
+    margin: 0 auto;
+    max-width: 900px;
+    line-height: 2rem;
+    padding-top: 35px;
+}
+
+
+
+/* patition Eleven */
+
+
+
+#teamMembers{
+    max-width: 2000px;
+    min-width:600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#subMembers{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    padding-bottom: 120px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 140px;
+}
+
+.profile > img{
+    height: 150px;
+}
+
+.profile > h3{
+    padding: 20px 0 10px 0;
+    letter-spacing: -.5px;
+}
+
+.profile > p{
+    font-size: .9rem;
+}
+
+
+
+/* partition twelve */
+
+
+
+#factsNumbers{
+    max-width: 2000px;
+    min-width:600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 100px 0 150px 0;
+    background-image: url(Images/photo3.jpg);
+    background-color: rgba(0, 0, 0, 0.635); 
+    background-blend-mode: multiply; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#factsNumbers > h2{
+    padding-bottom: 70px;
+    font-size: 1.6rem;
+    color: white;
+    letter-spacing: .2rem;
+}
+
+#subFacts{
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.347);
+    max-width: 60%;
+}
+
+#projectClient{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+#openSource{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    padding: 70px 0 70px 0;
+    flex-wrap: wrap;    
+    gap: 100px;
+}
+
+.facts > h1{
+    color: white;
+    padding-bottom: 10px;
+    font-size: 1.7rem;
+    letter-spacing: .2rem;
+}
+
+.underLine{
+    height: 3px;
+    width: 80px;
+    background-color: black;
+    margin: 0 auto;
+}
+
+.facts > p{
+    font-size: 1.6rem;
+    color: white;
+    padding-top: 10px;
+    letter-spacing: .1rem;
+}
+
+#frameLine{
+    margin: 0 auto;
+    height: 6px;
+    width: 80px;
+    background-color: rgb(222, 57, 57);
+}
+
+
+
+/* patition thirteen */
+
+
+
+.upcomingProduct{
+    max-width: 2000px;
+    min-width:600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.subUpcoming{
+    width: 80%;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+#xbox{
+    flex-wrap: wrap-reverse;
+}
+
+.productDescription{
+    flex: 1 1 350px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newProduct{
+    width: 90%;
+}
+
+.newProduct > h2{
+    padding: 10px 0 45px 0;
+    font-weight: 600;
+}
+
+.newProduct > h4{
+    font-weight: 400;
+
+}
+
+.newProduct > p{
+    line-height: 1.7rem;
+}
+
+.upcomingImage{
+    flex: 1 1 350px;
+}
+
+.upcomingImage > img{
+    width: 100%;
+}
+
+#upcoming{
+    margin-top: 40px;
+}
+
+#upcoming_2{
+    margin-top: 40px;
+    padding-bottom: 90px;
+}
+
+
+
+
+
+#lastSliderContainer{
+    max-width: 2000px;
+    min-width:600px;
+    margin: 0 auto;
+    background-color: rgb(234, 234, 234);
+}
+
+#lastSubContainer{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+#lastSliderFrame{
+    display: flex;
+    overflow: hidden;
+}
+
+#lastSubFrame{
+    display: flex;
+    transition: 1s all ease;
+}
+
+.verticalLine{
+    height: 70px;
+    width: 5px;
+    background-color: black;
+}
+
+.sliderCard{
+    width: 400px;
+    padding: 70px 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#lastSubContainer > img{
+    height: 35px;
+    cursor: pointer;
+}
+
+
+
+/* patition fifteen */
+
+
+
+#loveLess{
+    max-width: 2000px;
+    min-width:600px;
+    margin: 0 auto;
+    padding: 80px 0 90px 0;
+    text-align: center;
+}
+
+#twitter{
+    width: 30px;
+    padding-bottom: 50px;
+}
+
+#loveless_logo{
+    width: 60px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+#loveLess > p{
+    max-width: 1000px;
+    padding: 35px 70px 0 70px;
+    margin: 0 auto;
+    line-height: 2rem;
+}
+
+
+
+/* patition sixteen */
+
+
+
+footer{
+    max-width: 2000px;
+    min-width:600px;
+    margin: 0 auto;
+    background-color: rgb(37, 37, 37);
+    padding-bottom: 40px;
+}
+
+#footerFrame{
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+
+#unicorn{
+    flex: 1 1 400px;
+    padding: 90px 0px 0 0px;
+}
+
+#unicorn > h1{
+    font-size: 1.4rem;
+    color: rgb(170, 170, 170);
+    padding-bottom: 25px;
+}
+
+#unicorn > p{
+    font-size: .9rem;
+    color: rgb(189, 189, 189);
+    line-height: 1.6rem;
+    margin-right: 30px;
+}
+
+#inputs{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.emailSubject{
+    flex: 1 1 170px;
+    background: transparent;
+    border: none;
+    box-shadow: 0px 2px rgb(92, 92, 92);
+    margin-right: 30px;
+    color: rgb(214, 214, 214);
+    height: 30px;
+    margin-top: 20px;
+    outline: none;
+}
+
+#message{
+    flex: 1 1 300px;
+    background: transparent;
+    border: none;
+    margin-top: 20px;
+    box-shadow: 0px 2px rgb(90, 90, 90);
+    margin-right: 30px;
+    color: rgb(219, 219, 219);
+    height: 30px;
+    outline: none;
+
+}
+
+#buttonFrame{
+    padding-top: 50px;
+    display: flex;
+    align-items: end;
+}
+
+#buttonFrame > button{
+    background: transparent;
+    border: none;
+    color: rgb(174, 174, 174);
+    cursor: pointer;
+    height: 20px;
+}
+
+#buttonFrame > button > img{
+    width: 10px;
+}
+
+#linksFrame{
+    flex: 1 1 600px;
+    display: flex;
+    padding: 90px 20px 0 20px;
+    justify-content: space-around;
+}
+
+.links > h2{
+    font-size: 1rem;
+    color: rgb(170, 170, 170);
+    padding-bottom: 25px;
+}
+
+.link_items{
+    padding-bottom: 5px;
+    font-size: .9rem;
+}
+
+.link_items > a{
+    color: rgb(159, 159, 159);
+}
+
+#footerLine{
+    background-color: rgb(125, 125, 125);
+    border: none;
+    height: 1px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+#copyrightFrame{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    gap: 30px;
+}
+
+#copyright{
+    flex: 1 1 700px;
+    padding-top: 30px;
+
+}
+
+#copyText{
+    color: rgb(139, 139, 139);
+    font-size: .9rem;
+}
+
+#copyYear{
+    color: rgb(139, 139, 139);
+    padding-top: 4px;
+    font-size: .85rem;
+}
+
+#copyYear > img{
+    width: 12px;
+    margin-right: 4px;
+}
+
+#termsFrame{
+    flex: 1 1 350px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+
+}
+
+.terms > a{
+    color: rgb(135, 135, 135);
+    font-size: .8rem;
+    font-weight: 600;
+}
